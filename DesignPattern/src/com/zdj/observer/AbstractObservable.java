@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * 作者 ： zdj <br/>
  * 创建时间 ： 2015年8月25日 <br/>
- * 被监听的抽象类
+ * 被监听的抽象类，持有观察者列表，便于状态改变通知观察者
  */
 public abstract class AbstractObservable {
 	protected List<IObserver> observers = new ArrayList<IObserver>() ;
