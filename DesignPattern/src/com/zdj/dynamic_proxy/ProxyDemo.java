@@ -9,7 +9,7 @@ public class ProxyDemo implements IProxyDemo{
 
 	@Override
 	public void proxy() {
-		System.out.println("被代理了");
+		System.out.println("我被代理了");
 	}
 
 }
