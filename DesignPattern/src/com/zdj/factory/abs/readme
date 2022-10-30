@@ -1,0 +1,9 @@
+抽象工厂模式
+
+ProductA 的子类 ProductA1 ProductA2 为一个产品等级
+ProductB 的子类ProductB1 ProductB2 为一个产品等级
+
+工厂提供的方法 produceProductA() produceProductB() 生成的ProductA1 ProductB1 或者 ProductA2 ProductB2 为一个产品族
+
+抽象工厂模式对拓展产品族符合开闭原则，只需要创建新的工厂即可
+对拓展产品等级不符合开闭原则，比如在工厂中新增一个产品生成的方法，则所有的工厂都得修改源代码。

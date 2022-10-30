@@ -12,4 +12,16 @@ public class ConcreteObserverA implements IObserver{
 		System.out.println("ConcreteObserverA 观察者更新状态了");
 	}
 
+	@Override
+	public void setObserverName(String observerName) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public String getObserverName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

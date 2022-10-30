@@ -26,5 +26,11 @@ public abstract class AbstractTemplate {
 		System.out.println("调用方法D");
 	}
 
+	
+	/** 
+	 * 具体的执行逻辑由子类实现，委托思想
+	 * @author zdj 
+	 * created at 2016年1月23日  上午11:09:53
+	 */
 	protected abstract void functionC();
 }

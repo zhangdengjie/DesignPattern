@@ -12,4 +12,13 @@ public class ConcreteObserverB implements IObserver{
 		System.out.println("ConcreteObserverB 观察者更新状态了");
 	}
 
+	@Override
+	public void setObserverName(String observerName) {
+	}
+
+	@Override
+	public String getObserverName() {
+		return null;
+	}
+
 }
